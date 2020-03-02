@@ -1,0 +1,11 @@
+{
+  "name": "bytefield-svg-test",
+  "version": "0.1.0",
+  "description": "Generate byte field diagrams in SVG format from a Clojure/EDN DSL",
+  "main": "lib.js",
+  "dependencies": {
+    "bytefield-svg": "^0.1.0"
+  },
+  "private": true,
+  "workspaces": [".", "../../bytefield-svg", "../../../asciidoctor-generic-svg-extension.js"]
+}
