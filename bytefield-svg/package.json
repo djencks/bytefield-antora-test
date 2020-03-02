@@ -4,6 +4,7 @@
   "description": "Generate byte field diagrams in SVG format from a Clojure/EDN DSL",
   "main": "lib.js",
   "dependencies": {
+    "asciidoctor-generic-svg-extension": "^0.0.1",
     "bytefield-svg": "^0.1.0"
   },
   "private": true,

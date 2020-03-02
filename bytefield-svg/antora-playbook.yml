@@ -6,9 +6,11 @@ content:
   - url: ./../
     start_path: bytefield-svg/component
 
-asciidoc:
-  extensions:
-    - bytefield-svg
+plugins:
+  - path: asciidoctor-generic-svg-extension
+    config:
+      generator: bytefield-svg
+      name: bytefield
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
