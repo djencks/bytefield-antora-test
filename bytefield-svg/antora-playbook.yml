@@ -2,6 +2,7 @@ site:
   title: Antora Example bytefield-svg
   url: http://example.com
 content:
+  branches: HEAD
   sources:
   - url: ./../
     start_path: bytefield-svg/component
