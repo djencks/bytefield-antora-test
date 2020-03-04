@@ -1,5 +1,7 @@
 = {page-component-title}
 
+This might be a link <<AnchorToBytefield>>
+
 == Page Coordinates
 
 page-component-name: {page-component-name}
@@ -15,7 +17,7 @@ page-relative: {page-relative}
 
 And some content.
 
-
+[#AnchorToBytefield]
 .This is a title
 [bytefield]
 ----
